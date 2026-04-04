@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "atom-agent"
+version = "0.1.0"
+description = "Braco fisico do Atom HS — filesystem scanner, classifier, organizer"
+requires-python = ">=3.11"
+dependencies = [
+    "supabase>=2.0.0",
+    "typer[all]>=0.9.0",
+    "python-dotenv>=1.0.0",
+    "pyyaml>=6.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+atom-agent = "atom_agent.cli:app"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
