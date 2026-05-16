@@ -84,7 +84,7 @@ src/atom_agent/
 | Repo | Role |
 |------|------|
 | [mindroot-v2](https://github.com/rsmramalho/mindroot-v2) | Web/mobile interface |
-| [atom-engine-core](https://github.com/rsmramalho/atom-engine-core) | Protocol, schema, specs |
+| [atom-hs/atom-engine](https://github.com/atom-hs/atom-engine) | Protocol, schema, specs |
 | Supabase | Shared data layer |
 
 ---
