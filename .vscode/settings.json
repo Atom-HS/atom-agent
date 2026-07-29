@@ -1,0 +1,11 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.formatOnSave": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "git.confirmSync": false,
+  "explorer.confirmDelete": true,
+  "todo-tree.general.tags": ["TODO", "FIXME", "SEMENTE", "JOB"],
+  "search.exclude": { "**/node_modules": true, "**/dist": true, "**/.next": true }
+}

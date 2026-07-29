@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "anthropic.claude-code",
+    "eamodio.gitlens",
+    "usernamehw.errorlens",
+    "gruntfuggly.todo-tree",
+    "yzhang.markdown-all-in-one",
+    "streetsidesoftware.code-spell-checker-portuguese-brazilian"
+  ]
+}
